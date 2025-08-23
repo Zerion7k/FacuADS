@@ -1,0 +1,41 @@
+,<!DOCTYPE html>
+<html lang="Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para ser minha esposa</title>
+</head>
+<body>
+    <h1>Formulario para ser minha esposa</h1>
+    <form method="post" action="ESPOSA.jsp">
+        Nome Completo: <input type="text" name="nome"> <br><br>
+        Idade: <input type="number" name="idade"> <br><br>
+        Email: <input type="Email" name="Email"> <br><br>
+        Cidade: <input type="text" name="cidade"> <br><br>
+        Time do Coração: 
+            Flamengo <input type="radio" name="Time" value="Flamengo"> 
+            Botafogo <input type="radio" name="Time" value="Botafogo"> <br><br>
+        Local você quer morar: 
+            <select name="Local">
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Rio grande do sul">Rio grande do sul</option>
+            </select> <br><br>    
+        Filhos: 
+            <input type="checkbox" name="filhos" value="Sim"> Sim
+            <input type="checkbox" name="filhos" value="Não"> Não <br><br>
+        Data do casamento: <input type="date" name="data"> <br><br>  
+            <label for="assinatura">Assinatura Digital:</label>
+            <input type="file" id="assinatura" name="assinatura" accept="image/*"><br><br>
+
+        Por que você quer ser minha esposa? <br>
+        <textarea name="motivo" rows="10" cols="50"></textarea> <br><br>
+        <input type="submit" value="Enviar">
+        
+
+    </form>
+    
+</body>
+</html>
